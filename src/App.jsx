@@ -18,6 +18,15 @@ const App = () => {
           onClick={updateCount}
         />
       </div>
+
+      <div className="container">
+        <div className="upgrade">
+          <h3>Double Stuffed 👯‍♀️</h3>
+          <p>2x per click</p>
+          <button>10 samosas</button>
+        </div>
+        
+      </div>
     </div>
   );
 };
