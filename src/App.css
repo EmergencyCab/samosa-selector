@@ -10,6 +10,11 @@
   padding: 1.5em;
 }
 
+.samosa:hover {
+  cursor: hover;
+  transform: scale(1.1);
+}
+
 .container {
   margin-top: 50px;
   display: flex;
