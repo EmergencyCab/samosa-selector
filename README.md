@@ -1,33 +1,31 @@
-Web Development Project 2 - Samosa Selector
+**WEB102 Lab - Samosa Selector**
+Submitted by: Prashant Panta
 
-Description
-Samosa Selector is a simple clicker game built with React. Users can click on a samosa image to increase their count and purchase upgrades to multiply their clicks. The game introduces the use of React state, conditional logic, and component styling using CSS.
+**Project Name: Samosa Selector**
 
-Features
-Required Features
- App uses React and is initialized using Vite
+Samosa Selector is a clicker-style web app that allows users to collect virtual samosas. Players can upgrade their samosa-collecting power by purchasing multipliers using their collected samosas. The app demonstrates core React principles such as state management, event handling, and component styling.
 
- App has a central interactive element (clickable image)
 
- Count increases on click and displays correctly
+**Required Features**
+The following required functionality is completed:
 
- Upgrades are displayed with names, descriptions, and costs
+ Header section displays the game title and current samosa count
 
- Clicking an upgrade button increases the multiplier if the user has enough points
+ Samosa image is clickable and increases the samosa count
 
-Optional Features
- Multiple upgrades with increasing multiplier logic
+ Upgrades section includes:
 
- Responsive layout with centered design
+Double Stuffed: 2x multiplier for 10 samosas
 
- Styling applied with custom CSS
+Party Pack: 5x multiplier for 100 samosas
 
- Buttons are styled and responsive
+Full Feast: 10x multiplier for 1000 samosas
 
-Additional Features
- Flexbox layout for upgrades
+ Upgrade buttons only activate if the user has enough samosas
 
- Multiplier logic for click upgrades
+**Optional Features**
+The following optional features are implemented:
 
- Visual design separation of header and upgrade panel
+ Clean and responsive UI with upgrade cards side-by-side
 
+ Styled buttons and layout using custom CSS
