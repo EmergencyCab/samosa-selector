@@ -1,12 +1,33 @@
-# React + Vite
+Web Development Project 2 - Samosa Selector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+Samosa Selector is a simple clicker game built with React. Users can click on a samosa image to increase their count and purchase upgrades to multiply their clicks. The game introduces the use of React state, conditional logic, and component styling using CSS.
 
-Currently, two official plugins are available:
+Features
+Required Features
+ App uses React and is initialized using Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ App has a central interactive element (clickable image)
 
-## Expanding the ESLint configuration
+ Count increases on click and displays correctly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Upgrades are displayed with names, descriptions, and costs
+
+ Clicking an upgrade button increases the multiplier if the user has enough points
+
+Optional Features
+ Multiple upgrades with increasing multiplier logic
+
+ Responsive layout with centered design
+
+ Styling applied with custom CSS
+
+ Buttons are styled and responsive
+
+Additional Features
+ Flexbox layout for upgrades
+
+ Multiplier logic for click upgrades
+
+ Visual design separation of header and upgrade panel
+
